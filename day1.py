@@ -8,6 +8,8 @@ def op(a,k,i):
             a=int(a)+int(b)
             i+=1
             return op(a,k,i)
+    else:
+        return -1
         
 a=int(input())
 k=int(input())
